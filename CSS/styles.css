@@ -1,0 +1,58 @@
+ nav, section, main, .one, .two, header, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    height:60px;
+    background-color: rgb(35, 64, 89);
+    color:rgb(253, 253, 253);
+    font-size: 40px;
+}
+
+nav {
+    background-color: rgba(144, 143, 143, 0.714);
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body {
+    background-color: rgb(35, 64, 89);
+}
+
+.pagelinks {
+
+    text-align: center;
+    display: inline-block;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+    font-size: 25px;
+}
+
+
+
+.one, .two {
+    display:block;
+    outline:1px solid white;
+    width: 45%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(8, 43, 104, 0.62);
+    height: 600px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+.one {
+    margin-left: 3.5%;
+    float:left;
+}
+
+.two {
+    margin-right: 3.5%;
+    float:right;
+    
+}
